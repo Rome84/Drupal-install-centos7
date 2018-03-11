@@ -28,5 +28,5 @@ output "drupal_ip" {
     value = "${aws_instance.drupal.public_ip}"
 }
 output "drupal_END_URL" {
-    value = "http://${aws_instance.drupal.public_ip}:8081"
+    value = "http://${aws_instance.drupal.public_ip}:8080"
 }
